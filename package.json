@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "module",
+    "type": "git",
     "url": "git+https://github.com/DaniilTsyplakov/hexlet-js.git"
   },
   "author": "",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/DaniilTsyplakov/hexlet-js/issues"
   },
-  "homepage": "https://github.com/DaniilTsyplakov/hexlet-js#readme"
+  "type": "module",
+  "homepage": "https://github.com/DaniilTsyplakov/hexlet-js#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
